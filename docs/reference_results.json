@@ -1,0 +1,905 @@
+{
+  "annotation_roundtrip": {
+    "usages": 976,
+    "entries": 50,
+    "all_contexts_equal": true,
+    "invalid_labels_preserved": 1
+  },
+  "counts": {
+    "total_records": 213945,
+    "resolved_predictions": 213919,
+    "sense0": 3037,
+    "invalid_time": 269,
+    "unresolved_predictions": 26
+  },
+  "evaluation_normalized": {
+    "alignment_policy": "exact definition alignment; unresolved gold labels excluded",
+    "agreement": {
+      "mode": "normalized",
+      "n_usages": 976,
+      "n_entries": 50,
+      "majority_n": 961,
+      "mean_word_alpha": 0.6900237811212349,
+      "mean_pairwise_kappa": 0.8668634811703666,
+      "pairs": {
+        "annotator_1__annotator_2": {
+          "kappa": 0.869201088553578,
+          "agreement": 0.8707692307692307,
+          "n": 975
+        },
+        "annotator_1__annotator_3": {
+          "kappa": 0.865223584598013,
+          "agreement": 0.8668032786885246,
+          "n": 976
+        },
+        "annotator_2__annotator_3": {
+          "kappa": 0.8661657703595088,
+          "agreement": 0.8676923076923077,
+          "n": 975
+        }
+      }
+    },
+    "methods": {
+      "qwen": {
+        "annotator_1": {
+          "correct": 765.0,
+          "n": 938,
+          "accuracy": 0.8155650319829424
+        },
+        "annotator_2": {
+          "correct": 772.0,
+          "n": 939,
+          "accuracy": 0.8221512247071352
+        },
+        "annotator_3": {
+          "correct": 760.0,
+          "n": 940,
+          "accuracy": 0.8085106382978723
+        },
+        "majority": {
+          "correct": 776.0,
+          "n": 924,
+          "accuracy": 0.8398268398268398
+        },
+        "macro_annotator_accuracy": 0.8154089649959833,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 132.0,
+            "n": 154,
+            "accuracy": 0.8571428571428571
+          },
+          "CHJ": {
+            "correct": 241.0,
+            "n": 296,
+            "accuracy": 0.8141891891891891
+          },
+          "SHC": {
+            "correct": 403.0,
+            "n": 474,
+            "accuracy": 0.8502109704641351
+          }
+        },
+        "covered_n": 976
+      },
+      "mfs": {
+        "annotator_1": {
+          "correct": 672.0,
+          "n": 938,
+          "accuracy": 0.7164179104477612
+        },
+        "annotator_2": {
+          "correct": 651.0,
+          "n": 939,
+          "accuracy": 0.6932907348242812
+        },
+        "annotator_3": {
+          "correct": 626.0,
+          "n": 940,
+          "accuracy": 0.6659574468085107
+        },
+        "majority": {
+          "correct": 643.0,
+          "n": 924,
+          "accuracy": 0.6958874458874459
+        },
+        "macro_annotator_accuracy": 0.6918886973601843,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 114.0,
+            "n": 154,
+            "accuracy": 0.7402597402597403
+          },
+          "CHJ": {
+            "correct": 186.0,
+            "n": 296,
+            "accuracy": 0.6283783783783784
+          },
+          "SHC": {
+            "correct": 343.0,
+            "n": 474,
+            "accuracy": 0.7236286919831224
+          }
+        },
+        "covered_n": 976
+      },
+      "random": {
+        "annotator_1": {
+          "correct": 261.8023088023088,
+          "n": 938,
+          "accuracy": 0.2791069390216512
+        },
+        "annotator_2": {
+          "correct": 262.35786435786434,
+          "n": 939,
+          "accuracy": 0.2794013464939982
+        },
+        "annotator_3": {
+          "correct": 262.3856421356421,
+          "n": 940,
+          "accuracy": 0.2791336618464278
+        },
+        "majority": {
+          "correct": 258.1634199134199,
+          "n": 924,
+          "accuracy": 0.2793976405989393
+        },
+        "macro_annotator_accuracy": 0.27921398245402573,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 42.795743145743145,
+            "n": 154,
+            "accuracy": 0.27789443601131913
+          },
+          "CHJ": {
+            "correct": 80.68679653679654,
+            "n": 296,
+            "accuracy": 0.2725905288405288
+          },
+          "SHC": {
+            "correct": 134.68088023088023,
+            "n": 474,
+            "accuracy": 0.2841368781242199
+          }
+        },
+        "covered_n": 976
+      },
+      "wordnet_bert": {
+        "annotator_1": {
+          "correct": 416.0,
+          "n": 938,
+          "accuracy": 0.44349680170575695
+        },
+        "annotator_2": {
+          "correct": 403.0,
+          "n": 939,
+          "accuracy": 0.4291799787007455
+        },
+        "annotator_3": {
+          "correct": 404.0,
+          "n": 940,
+          "accuracy": 0.4297872340425532
+        },
+        "majority": {
+          "correct": 412.0,
+          "n": 924,
+          "accuracy": 0.4458874458874459
+        },
+        "macro_annotator_accuracy": 0.4341546714830185,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 79.0,
+            "n": 154,
+            "accuracy": 0.512987012987013
+          },
+          "CHJ": {
+            "correct": 125.0,
+            "n": 296,
+            "accuracy": 0.4222972972972973
+          },
+          "SHC": {
+            "correct": 208.0,
+            "n": 474,
+            "accuracy": 0.4388185654008439
+          }
+        },
+        "covered_n": 870
+      },
+      "usage_gloss": {
+        "annotator_1": {
+          "correct": 633.0,
+          "n": 938,
+          "accuracy": 0.6748400852878464
+        },
+        "annotator_2": {
+          "correct": 643.0,
+          "n": 939,
+          "accuracy": 0.6847710330138446
+        },
+        "annotator_3": {
+          "correct": 624.0,
+          "n": 940,
+          "accuracy": 0.6638297872340425
+        },
+        "majority": {
+          "correct": 642.0,
+          "n": 924,
+          "accuracy": 0.6948051948051948
+        },
+        "macro_annotator_accuracy": 0.6744803018452444,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 100.0,
+            "n": 154,
+            "accuracy": 0.6493506493506493
+          },
+          "CHJ": {
+            "correct": 204.0,
+            "n": 296,
+            "accuracy": 0.6891891891891891
+          },
+          "SHC": {
+            "correct": 338.0,
+            "n": 474,
+            "accuracy": 0.7130801687763713
+          }
+        },
+        "covered_n": 976
+      },
+      "target_gloss": {
+        "annotator_1": {
+          "correct": 555.0,
+          "n": 938,
+          "accuracy": 0.591684434968017
+        },
+        "annotator_2": {
+          "correct": 548.0,
+          "n": 939,
+          "accuracy": 0.5835995740149095
+        },
+        "annotator_3": {
+          "correct": 530.0,
+          "n": 940,
+          "accuracy": 0.5638297872340425
+        },
+        "majority": {
+          "correct": 550.0,
+          "n": 924,
+          "accuracy": 0.5952380952380952
+        },
+        "macro_annotator_accuracy": 0.5797045987389896,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 104.0,
+            "n": 154,
+            "accuracy": 0.6753246753246753
+          },
+          "CHJ": {
+            "correct": 163.0,
+            "n": 296,
+            "accuracy": 0.5506756756756757
+          },
+          "SHC": {
+            "correct": 283.0,
+            "n": 474,
+            "accuracy": 0.5970464135021097
+          }
+        },
+        "covered_n": 976
+      }
+    },
+    "label_audit": {
+      "raw_label_count": 2928,
+      "invalid_label_count": 1,
+      "alignment_excluded_labels": 110,
+      "original_majority_n": 961,
+      "evaluation_majority_n": 924
+    }
+  },
+  "evaluation_paper": {
+    "alignment_policy": "historical numeric labels without inventory realignment",
+    "agreement": {
+      "mode": "paper",
+      "n_usages": 976,
+      "n_entries": 50,
+      "majority_n": 961,
+      "mean_word_alpha": 0.6885861932339113,
+      "mean_pairwise_kappa": 0.7986250359856121,
+      "pairs": {
+        "annotator_1__annotator_2": {
+          "kappa": 0.8002591191238937,
+          "agreement": 0.8698770491803278,
+          "n": 976
+        },
+        "annotator_1__annotator_3": {
+          "kappa": 0.7977419666119849,
+          "agreement": 0.8657786885245902,
+          "n": 976
+        },
+        "annotator_2__annotator_3": {
+          "kappa": 0.7978740222209575,
+          "agreement": 0.8657786885245902,
+          "n": 976
+        }
+      }
+    },
+    "methods": {
+      "qwen": {
+        "annotator_1": {
+          "correct": 775.0,
+          "n": 976,
+          "accuracy": 0.7940573770491803
+        },
+        "annotator_2": {
+          "correct": 779.0,
+          "n": 976,
+          "accuracy": 0.798155737704918
+        },
+        "annotator_3": {
+          "correct": 767.0,
+          "n": 976,
+          "accuracy": 0.7858606557377049
+        },
+        "majority": {
+          "correct": 783.0,
+          "n": 961,
+          "accuracy": 0.8147762747138397
+        },
+        "macro_annotator_accuracy": 0.7926912568306012,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 135.0,
+            "n": 160,
+            "accuracy": 0.84375
+          },
+          "CHJ": {
+            "correct": 244.0,
+            "n": 304,
+            "accuracy": 0.8026315789473685
+          },
+          "SHC": {
+            "correct": 404.0,
+            "n": 497,
+            "accuracy": 0.8128772635814889
+          }
+        },
+        "covered_n": 976
+      },
+      "mfs": {
+        "annotator_1": {
+          "correct": 703.0,
+          "n": 976,
+          "accuracy": 0.7202868852459017
+        },
+        "annotator_2": {
+          "correct": 679.0,
+          "n": 976,
+          "accuracy": 0.6956967213114754
+        },
+        "annotator_3": {
+          "correct": 653.0,
+          "n": 976,
+          "accuracy": 0.6690573770491803
+        },
+        "majority": {
+          "correct": 672.0,
+          "n": 961,
+          "accuracy": 0.6992715920915713
+        },
+        "macro_annotator_accuracy": 0.6950136612021858,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 117.0,
+            "n": 160,
+            "accuracy": 0.73125
+          },
+          "CHJ": {
+            "correct": 193.0,
+            "n": 304,
+            "accuracy": 0.6348684210526315
+          },
+          "SHC": {
+            "correct": 362.0,
+            "n": 497,
+            "accuracy": 0.7283702213279678
+          }
+        },
+        "covered_n": 976
+      },
+      "random": {
+        "annotator_1": {
+          "correct": 272.8023088023088,
+          "n": 976,
+          "accuracy": 0.27951056229744753
+        },
+        "annotator_2": {
+          "correct": 272.35786435786434,
+          "n": 976,
+          "accuracy": 0.27905518889125447
+        },
+        "annotator_3": {
+          "correct": 272.46897546897543,
+          "n": 976,
+          "accuracy": 0.2791690322428027
+        },
+        "majority": {
+          "correct": 268.8300865800866,
+          "n": 961,
+          "accuracy": 0.2797399444121608
+        },
+        "macro_annotator_accuracy": 0.2792449278105016,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 44.545743145743145,
+            "n": 160,
+            "accuracy": 0.27841089466089464
+          },
+          "CHJ": {
+            "correct": 82.68679653679654,
+            "n": 304,
+            "accuracy": 0.2719960412394623
+          },
+          "SHC": {
+            "correct": 141.5975468975469,
+            "n": 497,
+            "accuracy": 0.28490452092061747
+          }
+        },
+        "covered_n": 976
+      },
+      "wordnet_bert": {
+        "annotator_1": {
+          "correct": 423.0,
+          "n": 870,
+          "accuracy": 0.4862068965517241
+        },
+        "annotator_2": {
+          "correct": 409.0,
+          "n": 869,
+          "accuracy": 0.4706559263521289
+        },
+        "annotator_3": {
+          "correct": 410.0,
+          "n": 870,
+          "accuracy": 0.47126436781609193
+        },
+        "majority": {
+          "correct": 418.0,
+          "n": 961,
+          "accuracy": 0.43496357960457854
+        },
+        "macro_annotator_accuracy": 0.4760423969066483,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 80.0,
+            "n": 160,
+            "accuracy": 0.5
+          },
+          "CHJ": {
+            "correct": 127.0,
+            "n": 304,
+            "accuracy": 0.41776315789473684
+          },
+          "SHC": {
+            "correct": 211.0,
+            "n": 497,
+            "accuracy": 0.4245472837022133
+          }
+        },
+        "covered_n": 870
+      },
+      "usage_gloss": {
+        "annotator_1": {
+          "correct": 650.0,
+          "n": 976,
+          "accuracy": 0.6659836065573771
+        },
+        "annotator_2": {
+          "correct": 654.0,
+          "n": 975,
+          "accuracy": 0.6707692307692308
+        },
+        "annotator_3": {
+          "correct": 636.0,
+          "n": 976,
+          "accuracy": 0.6516393442622951
+        },
+        "majority": {
+          "correct": 654.0,
+          "n": 961,
+          "accuracy": 0.6805411030176899
+        },
+        "macro_annotator_accuracy": 0.6627973938629677,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 101.0,
+            "n": 160,
+            "accuracy": 0.63125
+          },
+          "CHJ": {
+            "correct": 207.0,
+            "n": 304,
+            "accuracy": 0.680921052631579
+          },
+          "SHC": {
+            "correct": 346.0,
+            "n": 497,
+            "accuracy": 0.6961770623742455
+          }
+        },
+        "covered_n": 976
+      },
+      "target_gloss": {
+        "annotator_1": {
+          "correct": 574.0,
+          "n": 976,
+          "accuracy": 0.5881147540983607
+        },
+        "annotator_2": {
+          "correct": 566.0,
+          "n": 975,
+          "accuracy": 0.5805128205128205
+        },
+        "annotator_3": {
+          "correct": 548.0,
+          "n": 976,
+          "accuracy": 0.5614754098360656
+        },
+        "majority": {
+          "correct": 568.0,
+          "n": 961,
+          "accuracy": 0.5910509885535901
+        },
+        "macro_annotator_accuracy": 0.576700994815749,
+        "by_corpus": {
+          "BCCWJ": {
+            "correct": 107.0,
+            "n": 160,
+            "accuracy": 0.66875
+          },
+          "CHJ": {
+            "correct": 170.0,
+            "n": 304,
+            "accuracy": 0.5592105263157895
+          },
+          "SHC": {
+            "correct": 291.0,
+            "n": 497,
+            "accuracy": 0.5855130784708249
+          }
+        },
+        "covered_n": 976
+      }
+    },
+    "label_audit": {
+      "raw_label_count": 2928,
+      "invalid_label_count": 1,
+      "alignment_excluded_labels": 0,
+      "original_majority_n": 961,
+      "evaluation_majority_n": 961
+    }
+  },
+  "jasemchange": {
+    "period_rule": "year <=1925: CHJ; 1926..1999: SHC; >=2000: BCCWJ (historical evaluation rule)",
+    "excluded": {
+      "unresolved": 1
+    },
+    "comparisons": {
+      "CHJ-BCCWJ/full": {
+        "n": 20,
+        "rho_relatedness": -0.3669330350991523,
+        "rho_change": 0.3669330350991523,
+        "p": 0.11151867209637731,
+        "words": [
+          "モデル",
+          "主張",
+          "優勝",
+          "免許",
+          "写真",
+          "合計",
+          "教授",
+          "旨い",
+          "普通",
+          "林檎",
+          "椅子",
+          "症状",
+          "結構",
+          "翌日",
+          "英語",
+          "警戒",
+          "迚も",
+          "適当",
+          "遺憾",
+          "電車"
+        ]
+      },
+      "CHJ-BCCWJ/overlap": {
+        "n": 7,
+        "rho_relatedness": -0.7500000000000002,
+        "rho_change": 0.7500000000000002,
+        "p": 0.05218140045705776,
+        "words": [
+          "モデル",
+          "免許",
+          "教授",
+          "椅子",
+          "結構",
+          "迚も",
+          "適当"
+        ]
+      },
+      "SHC-BCCWJ/full": {
+        "n": 20,
+        "rho_relatedness": -0.5802563817895169,
+        "rho_change": 0.5802563817895169,
+        "p": 0.007314401845088823,
+        "words": [
+          "モデル",
+          "主張",
+          "優勝",
+          "免許",
+          "写真",
+          "合計",
+          "教授",
+          "旨い",
+          "普通",
+          "林檎",
+          "椅子",
+          "症状",
+          "結構",
+          "翌日",
+          "英語",
+          "警戒",
+          "迚も",
+          "適当",
+          "遺憾",
+          "電車"
+        ]
+      },
+      "SHC-BCCWJ/overlap": {
+        "n": 7,
+        "rho_relatedness": -0.8214285714285715,
+        "rho_change": 0.8214285714285715,
+        "p": 0.023448808345691505,
+        "words": [
+          "モデル",
+          "免許",
+          "教授",
+          "椅子",
+          "結構",
+          "迚も",
+          "適当"
+        ]
+      }
+    }
+  },
+  "trends_normalized": {
+    "entries": 150,
+    "eligible_entries": 130,
+    "tested_series": 366,
+    "significant_series": 20,
+    "dimensions": {
+      "val_t": {
+        "n": 130,
+        "significant": 2,
+        "ols_theilsen_rho": 0.7865162708762922,
+        "p": 1.4372599782745792e-28
+      },
+      "depth_t": {
+        "n": 106,
+        "significant": 6,
+        "ols_theilsen_rho": 0.8387159307997691,
+        "p": 3.285273626151039e-29
+      },
+      "meta_t": {
+        "n": 130,
+        "significant": 12,
+        "ols_theilsen_rho": 0.9083029153893825,
+        "p": 2.758876566355953e-50
+      }
+    }
+  },
+  "trends_paper": {
+    "entries": 150,
+    "eligible_entries": 130,
+    "tested_series": 365,
+    "significant_series": 20,
+    "dimensions": {
+      "val_t": {
+        "n": 130,
+        "significant": 2,
+        "ols_theilsen_rho": 0.7865162708762922,
+        "p": 1.4372599782745792e-28
+      },
+      "depth_t": {
+        "n": 105,
+        "significant": 6,
+        "ols_theilsen_rho": 0.8389852096952317,
+        "p": 5.602169087152977e-29
+      },
+      "meta_t": {
+        "n": 130,
+        "significant": 12,
+        "ols_theilsen_rho": 0.9083029153893825,
+        "p": 2.758876566355953e-50
+      }
+    }
+  },
+  "corpus_statistics": {
+    "CHJ": {
+      "token_records": 12293908,
+      "missing_or_invalid_year": 10057,
+      "year_min": 1874,
+      "year_max": 1925,
+      "records_by_year": {
+        "1874": 107360,
+        "1875": 73340,
+        "1881": 24696,
+        "1882": 175830,
+        "1887": 333826,
+        "1888": 754420,
+        "1895": 2238398,
+        "1901": 2191147,
+        "1909": 2092277,
+        "1917": 1990550,
+        "1925": 2302007
+      }
+    },
+    "SHC": {
+      "token_records": 31117303,
+      "missing_or_invalid_year": 20193,
+      "year_min": 1933,
+      "year_max": 2013,
+      "records_by_year": {
+        "1933": 3727882,
+        "1941": 2735114,
+        "1949": 1141862,
+        "1957": 3533001,
+        "1965": 2308636,
+        "1973": 2651902,
+        "1981": 3031795,
+        "1989": 3143214,
+        "1997": 2894511,
+        "2005": 2880125,
+        "2013": 3049068
+      }
+    },
+    "BCCWJ": {
+      "token_records": 4284216,
+      "missing_or_invalid_year": 0,
+      "year_min": 2001,
+      "year_max": 2005,
+      "records_by_year": {
+        "2001": 856097,
+        "2002": 938537,
+        "2003": 788389,
+        "2004": 890725,
+        "2005": 810468
+      }
+    }
+  },
+  "jasemchange_pairwise": [
+    {
+      "dataset": "chj_bccwj",
+      "dataset_label": "CHJ-BCCWJ",
+      "n_pairs": "399",
+      "n_same": "309",
+      "n_different": "90",
+      "same_mean": "2.964131607335491",
+      "same_sd": "0.7542830153086827",
+      "different_mean": "1.8527777777777779",
+      "different_sd": "0.7447328572811241",
+      "mean_difference": "1.111353829557713",
+      "welch_t": "12.422393393203023",
+      "welch_p_one_sided": "6.001541302895525e-25",
+      "mann_whitney_u": "23565.0",
+      "mann_whitney_p_one_sided": "2.8579231078802506e-24",
+      "point_biserial_r": "0.5263906520893525",
+      "point_biserial_p_two_sided": "8.067367996809592e-30",
+      "auc_n": "324",
+      "auc_n_low": "132",
+      "auc_n_high": "192",
+      "auc_excluded_ties": "75",
+      "auc": "0.7263257575757576",
+      "auc_ci95_low": "0.6796875",
+      "auc_ci95_high": "0.7729640151515151",
+      "exact_human_same_n": "37",
+      "exact_human_different_n": "362",
+      "exact_agreement_count": "127",
+      "exact_agreement_rate": "0.3182957393483709",
+      "exact_tp": "37",
+      "exact_tn": "90",
+      "exact_fp": "272",
+      "exact_fn": "0",
+      "related_3plus_human_same_n": "201",
+      "related_3plus_human_different_n": "198",
+      "related_3plus_agreement_count": "265",
+      "related_3plus_agreement_rate": "0.6641604010025063",
+      "related_3plus_tp": "188",
+      "related_3plus_tn": "77",
+      "related_3plus_fp": "121",
+      "related_3plus_fn": "13"
+    },
+    {
+      "dataset": "shc_bccwj",
+      "dataset_label": "SHC-BCCWJ",
+      "n_pairs": "399",
+      "n_same": "338",
+      "n_different": "61",
+      "same_mean": "3.0384615384615383",
+      "same_sd": "0.7409193102709256",
+      "different_mean": "2.278688524590164",
+      "different_sd": "0.8685456722012111",
+      "mean_difference": "0.7597730138713743",
+      "welch_t": "6.423343366899218",
+      "welch_p_one_sided": "5.11731347639341e-09",
+      "mann_whitney_u": "15292.0",
+      "mann_whitney_p_one_sided": "4.5172815330761825e-10",
+      "point_biserial_r": "0.338655101223878",
+      "point_biserial_p_two_sided": "3.657444731333644e-12",
+      "auc_n": "296",
+      "auc_n_low": "72",
+      "auc_n_high": "224",
+      "auc_excluded_ties": "103",
+      "auc": "0.6795634920634921",
+      "auc_ci95_low": "0.6202876984126984",
+      "auc_ci95_high": "0.7398313492063493",
+      "exact_human_same_n": "61",
+      "exact_human_different_n": "338",
+      "exact_agreement_count": "114",
+      "exact_agreement_rate": "0.2857142857142857",
+      "exact_tp": "57",
+      "exact_tn": "57",
+      "exact_fp": "281",
+      "exact_fn": "4",
+      "related_3plus_human_same_n": "255",
+      "related_3plus_human_different_n": "144",
+      "related_3plus_agreement_count": "282",
+      "related_3plus_agreement_rate": "0.706766917293233",
+      "related_3plus_tp": "238",
+      "related_3plus_tn": "44",
+      "related_3plus_fp": "100",
+      "related_3plus_fn": "17"
+    },
+    {
+      "dataset": "combined",
+      "dataset_label": "Combined",
+      "n_pairs": "798",
+      "n_same": "647",
+      "n_different": "151",
+      "same_mean": "3.00296239052035",
+      "same_sd": "0.7476757241180287",
+      "different_mean": "2.024834437086093",
+      "different_sd": "0.8214595581886636",
+      "mean_difference": "0.9781279534342571",
+      "welch_t": "13.394158740960457",
+      "welch_p_one_sided": "2.429013420288111e-30",
+      "mann_whitney_u": "78448.5",
+      "mann_whitney_p_one_sided": "4.298063070608454e-32",
+      "point_biserial_r": "0.4495904658370465",
+      "point_biserial_p_two_sided": "5.821755394770051e-41",
+      "auc_n": "620",
+      "auc_n_low": "204",
+      "auc_n_high": "416",
+      "auc_excluded_ties": "178",
+      "auc": "0.7089932126696833",
+      "auc_ci95_low": "0.6726020456259427",
+      "auc_ci95_high": "0.744414592760181",
+      "exact_human_same_n": "98",
+      "exact_human_different_n": "700",
+      "exact_agreement_count": "241",
+      "exact_agreement_rate": "0.30200501253132833",
+      "exact_tp": "94",
+      "exact_tn": "147",
+      "exact_fp": "553",
+      "exact_fn": "4",
+      "related_3plus_human_same_n": "456",
+      "related_3plus_human_different_n": "342",
+      "related_3plus_agreement_count": "547",
+      "related_3plus_agreement_rate": "0.6854636591478697",
+      "related_3plus_tp": "426",
+      "related_3plus_tn": "121",
+      "related_3plus_fp": "221",
+      "related_3plus_fn": "30"
+    }
+  ]
+}

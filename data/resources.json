@@ -1,0 +1,23 @@
+{
+  "CHJ": {
+    "resource_id": "chj_luw_paper_snapshot",
+    "filename": "CHJ_with_bibliography.csv",
+    "bytes": 4974727065,
+    "official_version": "not recorded",
+    "record_numbering": "1-based CSV data record, excluding header; not physical line number"
+  },
+  "SHC": {
+    "resource_id": "shc_luw_paper_snapshot",
+    "filename": "SHC_with_bibliography.csv",
+    "bytes": 12939856503,
+    "official_version": "not recorded",
+    "record_numbering": "1-based CSV data record, excluding header; not physical line number"
+  },
+  "BCCWJ": {
+    "resource_id": "bccwj_luw_paper_snapshot",
+    "filename": "PM_with_bibliography.csv",
+    "bytes": 1502512411,
+    "official_version": "not recorded",
+    "record_numbering": "1-based CSV data record, excluding header; not physical line number"
+  }
+}

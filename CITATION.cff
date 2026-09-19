@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the LSC-Pattern paper when using this software or its annotations."
+title: "LSC-Pattern: Interpretable Lexical Semantic Change Analysis via Diachronic Sense Distributions"
+type: software
+authors:
+  - family-names: Ling
+    given-names: Zhidong
+  - family-names: Komachi
+    given-names: Mamoru
+year: 2026
+repository-code: "https://github.com/Lexuss-D/LSC-Pattern"
+license: MIT
