@@ -10,6 +10,10 @@ three measures over time: context valence, semantic scope and metaphoricity.
 The main experiment uses 150 words. The annotation CSV contains 976 usages of
 50 words, each labeled by three anonymous annotators.
 
+## Request for full annotated data
+
+If you have bought the Iwanami ver.5 and CHJ & SHC lisence, you may contact us for the annotated data with sense IDs and usages.
+
 ## Install
 
 Use Python 3.12. Full inference requires NVIDIA GPUs and a compatible CUDA environment.
