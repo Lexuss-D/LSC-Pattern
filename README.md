@@ -12,7 +12,7 @@ The main experiment uses 150 words. The annotation CSV contains 976 usages of
 
 ## Request for full annotated data
 
-If you have bought the Iwanami ver.5 and CHJ & SHC lisence, you may contact us for the annotated data with sense IDs and usages.
+If you have bought the Iwanami ver.5 and got CHJ & SHC lisence, you may contact us for the annotated data with sense IDs and usages.
 
 ## Install
 
